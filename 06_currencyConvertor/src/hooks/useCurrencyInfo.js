@@ -7,7 +7,7 @@ function useCurrencyInfo(currency) {
         .then((res) => res.json())
         .then((res) => setData(res[currency]))
     },[currency])
-    return data;
+    return data
 }
 
-export default useCurrencyIndo
+export default useCurrencyInfo;
