@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
-import {Header, Footer} from './components'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+    <Header/>
+    <Outlet />
+    <Footer />
     </>
   )
 }
